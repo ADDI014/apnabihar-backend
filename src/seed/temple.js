@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const Temple = require("../modules/temple/model");
+const slugify = require("../utils/slugify");
 
 module.exports = async function seedTemples() {
   console.log("Seeding temples...");
@@ -12,7 +13,10 @@ module.exports = async function seedTemples() {
     const exists = await Temple.findOne({ name: temple.name });
 
     if (!exists) {
-      await Temple.create(temple);
+      await Temple.create({
+        ...temple,
+        slug : slugify(temple.name)
+      });
     }
   }
 
