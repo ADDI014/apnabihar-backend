@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Litti Chokha",
+    "image": "/images/cuisines/litti-chokha.jpg",
+    "description": "The iconic rustic dish of Bihar, featuring baked wheat balls stuffed with spiced gram flour.",
+    "longDescription": "Litti Chokha is the soul food of Bihar. The litti are baked dough balls stuffed with roasted chickpea flour (sattu), herbs, and spices, traditionally roasted over coal fire and dipped in ghee. It is served with chokha, a mash of roasted vegetables.",
+    "ingredients": [
+      "Whole wheat flour",
+      "Sattu",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Eggplant",
+      "Tomato",
+      "Potato",
+      "Spices",
+      "Ghee"
+    ]
+  },
+  {
+    "name": "Thekua",
+    "image": "/images/cuisines/thekua.jpg",
+    "description": "A crispy and sweet deep-fried biscuit traditionally prepared during Chhath Puja.",
+    "longDescription": "Thekua is a revered sweet snack from Bihar made from whole wheat flour, jaggery or sugar, and ghee. It is pressed into wooden molds before being deep-fried, giving it a distinctive pattern and rich flavor.",
+    "ingredients": [
+      "Whole wheat flour",
+      "Jaggery or Sugar",
+      "Ghee",
+      "Fennel seeds",
+      "Cardamom",
+      "Coconut"
+    ]
+  },
+  {
+    "name": "Kadhi Badi",
+    "image": "/images/cuisines/kadhi-badi.jpg",
+    "description": "Soft gram flour dumplings simmered in a tangy yogurt-based curry.",
+    "longDescription": "Kadhi Badi is a comforting household staple in Bihar, consisting of gram flour fritters cooked in a spiced yogurt gravy and enjoyed with steamed rice.",
+    "ingredients": [
+      "Gram flour (Besan)",
+      "Yogurt",
+      "Turmeric",
+      "Mustard seeds",
+      "Fenugreek seeds",
+      "Red chili",
+      "Spices"
+    ]
+  },
+  {
+    "name": "Sattu Paratha",
+    "image": "/images/cuisines/sattu-paratha.jpg",
+    "description": "A nutritious flatbread stuffed with spiced roasted gram flour.",
+    "longDescription": "Sattu Paratha is a protein-rich breakfast dish where whole wheat parathas are filled with a spicy mixture of sattu, onions, green chilies, and mustard oil.",
+    "ingredients": [
+      "Whole wheat flour",
+      "Sattu",
+      "Onion",
+      "Green chili",
+      "Garlic",
+      "Pickle masala",
+      "Mustard oil"
+    ]
+  },
+  {
+    "name": "Dal Pitha",
+    "image": "/images/cuisines/dal-pitha.jpeg",
+    "description": "Steamed rice flour dumplings filled with spiced lentils.",
+    "longDescription": "Dal Pitha is a healthy traditional delicacy made by steaming rice flour dumplings stuffed with a seasoned lentil filling, similar to savory momos.",
+    "ingredients": [
+      "Rice flour",
+      "Chana dal",
+      "Ginger",
+      "Garlic",
+      "Turmeric",
+      "Spices"
+    ]
+  },
+  {
+    "name": "Khaja",
+    "image": "/images/cuisines/khaja.jpeg",
+    "description": "A layered crispy dessert soaked in sugar syrup.",
+    "longDescription": "Khaja is a famous sweet from Silao, made by deep-frying layered dough and soaking it in sugar syrup, resulting in a crispy yet juicy texture.",
+    "ingredients": [
+      "All-purpose flour",
+      "Ghee",
+      "Sugar",
+      "Cardamom"
+    ]
+  },
+  {
+    "name": "Malpua",
+    "image": "/images/cuisines/malpua.jpeg",
+    "description": "A sweet pancake fried in ghee and dipped in syrup.",
+    "longDescription": "Malpua is a festive dessert made from flour, milk, and bananas, fried in ghee and soaked in sugar syrup, especially popular during Holi.",
+    "ingredients": [
+      "All-purpose flour",
+      "Milk",
+      "Banana",
+      "Sugar",
+      "Fennel seeds",
+      "Ghee"
+    ]
+  },
+  {
+    "name": "Chana Ghugni",
+    "image": "/images/cuisines/chana-ghugni.jpeg",
+    "description": "A spicy evening snack made from black chickpeas.",
+    "longDescription": "Ghugni is a popular street food prepared with boiled black chickpeas cooked with onions, tomatoes, and spices, often eaten with puffed rice.",
+    "ingredients": [
+      "Black chickpeas",
+      "Onion",
+      "Tomato",
+      "Ginger-Garlic paste",
+      "Spices"
+    ]
+  },
+  {
+    "name": "Sattu Sharbat",
+    "image": "/images/cuisines/sattu-sharbat.jpeg",
+    "description": "A cooling summer drink made from roasted gram flour.",
+    "longDescription": "Sattu Sharbat is a nutritious drink made by mixing sattu with water, lemon juice, black salt, and roasted cumin powder, known for instant energy.",
+    "ingredients": [
+      "Sattu",
+      "Water",
+      "Lemon juice",
+      "Roasted cumin powder",
+      "Black salt"
+    ]
+  },
+  {
+    "name": "Bihari Mutton Curry",
+    "image": "/images/cuisines/bihari-mutton-curry.jpeg",
+    "description": "A robust slow-cooked mutton curry with deep flavors.",
+    "longDescription": "Bihari Mutton Curry is cooked using mustard oil, onions, and whole spices in a single-pot style, producing rich and smoky flavors.",
+    "ingredients": [
+      "Mutton",
+      "Onion",
+      "Ginger-Garlic paste",
+      "Mustard oil",
+      "Whole spices"
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Mahavir Mandir, Patna",
+    "image": "/images/temples/mahavir-mandir.jpg",
+    "description": "One of the most sacred Hindu temples dedicated to Lord Hanuman, known for its faith and devotion.",
+    "deity": "Lord Hanuman",
+    "significance": "Located near Patna Junction, Mahavir Mandir is among the most visited temples in North India and is renowned for its Ram Rasoi community kitchen and social services."
+  },
+  {
+    "name": "Vishnupad Temple, Gaya",
+    "image": "/images/temples/vishnupad.jpg",
+    "description": "An ancient temple dedicated to Lord Vishnu, featuring a sacred footprint etched in rock.",
+    "deity": "Lord Vishnu",
+    "significance": "A major pilgrimage site for Pind-daan rituals. The temple houses a 40 cm footprint of Lord Vishnu on a basalt rock known as Dharmasila."
+  },
+  {
+    "name": "Jal Mandir, Pawapuri",
+    "image": "/images/temples/jal-mandir.jpg",
+    "description": "A marble Jain temple situated in the middle of a lotus pond.",
+    "deity": "Lord Mahavira",
+    "significance": "Built at the site where Lord Mahavira attained Mahaparinirvana, the Jal Mandir is a major Jain pilgrimage destination."
+  },
+  {
+    "name": "Patan Devi Temple, Patna",
+    "image": "/images/temples/patan-devi.jpg",
+    "description": "One of the 51 Shakti Peethas dedicated to Goddess Sati.",
+    "deity": "Goddess Sati (Durga)",
+    "significance": "Believed to be the site where Goddess Sati’s right thigh fell. The temple is deeply connected to the origin of Patna’s name."
+  },
+  {
+    "name": "Mundeshwari Devi Temple, Kaimur",
+    "image": "/images/temples/mundeshwari.jpg",
+    "description": "One of the oldest functional Hindu temples in India, dating back to 108 AD.",
+    "deity": "Devi Mundeshwari & Lord Shiva",
+    "significance": "An octagonal stone temple protected by ASI, representing rare Nagara-style architecture and continuous worship for centuries."
+  },
+  {
+    "name": "Sun Temple, Deo",
+    "image": "/images/temples/sun-temple-deo.jpg",
+    "description": "A historic Sun temple famous for its Chhath Puja celebrations.",
+    "deity": "Surya (Sun God)",
+    "significance": "Unique for its west-facing entrance, the temple attracts massive crowds during Chhath Puja."
+  },
+  {
+    "name": "Ajgaivinath Temple, Sultanganj",
+    "image": "/images/temples/ajgaivinath.jpg",
+    "description": "An ancient Shiva temple located on a rock in the Ganges river.",
+    "deity": "Lord Shiva",
+    "significance": "Starting point of the Kanwar Yatra where devotees collect holy Ganga water for Deoghar."
+  },
+  {
+    "name": "Mahabodhi Temple, Bodh Gaya",
+    "image": "/images/temples/mahabodhi.jpg",
+    "description": "A UNESCO World Heritage Site marking Buddha’s enlightenment.",
+    "deity": "Lord Buddha",
+    "significance": "The holiest site in Buddhism, housing the Bodhi Tree under which Siddhartha Gautama attained enlightenment."
+  }
+]

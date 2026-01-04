@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Chhath Puja",
+    "image": "/images/festivals/chhath.jpg",
+    "description": "An ancient Hindu Vedic festival dedicated to the Sun God, Surya, celebrating life and prosperity.",
+    "timeOfYear": "October-November",
+    "significance": "Chhath Puja is the most significant festival of Bihar. Devotees offer prayers to the setting and rising sun, expressing gratitude for life and well-being."
+  },
+  {
+    "name": "Sonepur Mela",
+    "image": "/images/festivals/sonepur-mela.jpg",
+    "description": "One of Asia's largest cattle fairs, blending spirituality, commerce, and culture.",
+    "timeOfYear": "November-December",
+    "significance": "Held at the confluence of the Ganga and Gandak rivers, Sonepur Mela is historically famous for cattle trade and vibrant cultural activities."
+  },
+  {
+    "name": "Sama Chakeva",
+    "image": "/images/festivals/sama-chakeva.jpg",
+    "description": "A folk festival celebrating the bond between brothers and sisters.",
+    "timeOfYear": "November",
+    "significance": "Celebrated mainly in the Mithila region, women create clay idols and perform rituals wishing prosperity and happiness for their brothers."
+  },
+  {
+    "name": "Makar Sankranti",
+    "image": "/images/festivals/makar-sankranti.jpg",
+    "description": "A harvest festival marking the sun's transition into Capricorn.",
+    "timeOfYear": "January",
+    "significance": "In Bihar, the festival is celebrated with traditional foods like Dahi-Chura and sesame sweets, symbolizing prosperity."
+  },
+  {
+    "name": "Bihula-Vishari Puja",
+    "image": "/images/festivals/bihula.jpg",
+    "description": "A prominent folk festival dedicated to the serpent goddess Vishari.",
+    "timeOfYear": "August",
+    "significance": "Observed mainly in the Anga region, the festival involves storytelling traditions centered around Bihula and Bala Lakhendra."
+  },
+  {
+    "name": "Madhushravani",
+    "image": "/images/festivals/madhushravani.jpg",
+    "description": "A festival observed by newly married women in the Mithila region.",
+    "timeOfYear": "July-August",
+    "significance": "Women observe rituals and fasts over thirteen days, praying for a happy and long married life."
+  },
+  {
+    "name": "Pitrapaksha Mela, Gaya",
+    "image": "/images/festivals/pitrapaksha.jpg",
+    "description": "A sacred period for paying homage to ancestors in the holy city of Gaya.",
+    "timeOfYear": "September-October",
+    "significance": "Millions of pilgrims perform Pind-daan rituals during this period, seeking peace for their ancestors’ souls."
+  },
+  {
+    "name": "Buddha Jayanti",
+    "image": "/images/festivals/buddha-jayanti.jpeg",
+    "description": "Celebrates the birth of Lord Buddha with devotion, especially in Bodh Gaya.",
+    "timeOfYear": "April-May",
+    "significance": "Marks the enlightenment and teachings of Buddha, drawing Buddhist devotees from around the world."
+  },
+  {
+    "name": "Saraswati Puja",
+    "image": "/images/festivals/saraswati-puja.jpeg",
+    "description": "A festival honoring the goddess of knowledge, music, and arts.",
+    "timeOfYear": "January-February",
+    "significance": "Students and educational institutions worship Goddess Saraswati seeking wisdom and learning."
+  },
+  {
+    "name": "Holi",
+    "image": "/images/festivals/holi.jpg",
+    "description": "The vibrant festival of colors celebrated with folk songs and joy.",
+    "timeOfYear": "March",
+    "significance": "In Bihar, Holi features traditional Bhojpuri songs, bonfires, and community celebrations."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Mahabodhi Temple, Bodh Gaya",
+    "location": "Bodh Gaya",
+    "image": "/images/tourist-spots/mahabodhi.jpg",
+    "images": [
+      "/images/tourist-spots/mahabodhi.jpg",
+      "/images/tourist-spots/mahabodhi-2.jpg"
+    ],
+    "description": "A UNESCO World Heritage Site, where Lord Buddha is said to have attained Enlightenment.",
+    "longDescription": "The Mahabodhi Temple Complex is one of the four holy sites related to the life of the Lord Buddha. The first temple was built by Emperor Asoka in the 3rd century B.C., and the present temple dates from the 5th or 6th centuries.",
+    "bestTimeToVisit": "October to March",
+    "howToReach": "The nearest airport is in Gaya, about 17 km away. The nearest major railway station is Gaya Junction.",
+    "gmapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.235350179973!2d84.9888810759368!3d24.75328994998939"
+  },
+
+  {
+    "name": "Nalanda University Ruins",
+    "location": "Nalanda",
+    "image": "/images/tourist-spots/nalanda.jpg",
+    "images": [
+      "/images/tourist-spots/nalanda.jpg",
+      "/images/tourist-spots/nalanda-2.jpg"
+    ],
+    "description": "Explore the remains of one of the world's oldest and most prestigious universities.",
+    "longDescription": "Nalanda was a renowned Buddhist monastery and center of learning from the 5th to 12th century, attracting scholars from China, Tibet, and Persia.",
+    "bestTimeToVisit": "October to March",
+    "howToReach": "Nearest airport is Patna (90 km). Nearest railway station is Rajgir.",
+    "gmapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.8252225883627!2d85.4422218759567!3d25.1073832367746"
+  }
+]
+
+

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Madhubani Painting",
+    "image": "/images/arts/madhubani.jpg",
+    "description": "A famous, intricate style of folk painting characterized by complex geometric patterns.",
+    "origin": "Mithila Region",
+    "details": "Also known as Mithila painting, this art form is practiced in the Mithila region of Bihar. It is characterized by eye-catching geometrical patterns and is created using natural dyes with fingers, twigs, brushes, and matchsticks."
+  },
+  {
+    "name": "Sikki Grass Craft",
+    "image": "/images/arts/sikki-grass.jpg",
+    "description": "An ancient craft where Sikki grass is woven into decorative objects and baskets.",
+    "origin": "Mithila Region",
+    "details": "Sikki grass craft uses golden-hued grass found in marshy areas of Mithila. Artisans coil and stitch the grass to create durable baskets, boxes, and toys decorated with colorful patterns."
+  },
+  {
+    "name": "Tikuli Art",
+    "image": "/images/arts/tikuli.jpg",
+    "description": "A traditional art form involving delicate hand-painting on hardboard with a glossy finish.",
+    "origin": "Patna",
+    "details": "Tikuli art dates back over 800 years and was originally used to create decorative bindis. Today it features intricate enamel-like paintings depicting mythological and daily life scenes."
+  },
+  {
+    "name": "Sujini Embroidery",
+    "image": "/images/arts/sujini.jpg",
+    "description": "A traditional quilting and embroidery style depicting narrative village scenes.",
+    "origin": "Muzaffarpur and surrounding areas",
+    "details": "Sujini embroidery uses old clothes stitched together to create a canvas. Artists use running stitches to narrate stories of folklore, social issues, and daily village life."
+  },
+  {
+    "name": "Manjusha Art",
+    "image": "/images/arts/manjusha.jpg",
+    "description": "A folk art of the Anga region known for its scroll-style paintings.",
+    "origin": "Anga Region (Bhagalpur)",
+    "details": "Manjusha art narrates the folklore of Bihula-Vishari using line-based drawings and a limited color palette of pink, green, and yellow."
+  },
+  {
+    "name": "Terracotta Crafts",
+    "image": "/images/arts/terracotta.jpg",
+    "description": "The ancient craft of creating pottery and figures from baked clay.",
+    "origin": "Across Bihar",
+    "details": "Bihari terracotta art produces household utensils, animal figures, and votive idols. The craft is known for its rustic simplicity and historical roots."
+  },
+  {
+    "name": "Bamboo Craft",
+    "image": "/images/arts/bamboo-craft.jpg",
+    "description": "The skill of creating functional and decorative items from bamboo.",
+    "origin": "Across Bihar",
+    "details": "Bamboo artisans craft baskets, furniture, fish traps, and decorative pieces, showcasing sustainable use of natural resources."
+  },
+  {
+    "name": "Stone Craft",
+    "image": "/images/arts/stone-craft.jpg",
+    "description": "An ancient tradition of stone carving with historical roots in Bihar.",
+    "origin": "Gaya (Patharkatti)",
+    "details": "Stone carving in Patharkatti dates back to the Mauryan era. Artisans create sculptures, household items, and architectural elements from locally sourced stone."
+  },
+  {
+    "name": "Bidesia Folk Theatre",
+    "image": "/images/arts/bidesia.jpg",
+    "description": "A folk theatre tradition addressing social issues and migration.",
+    "origin": "Bhojpur Region",
+    "details": "Created by Bhikhari Thakur, Bidesia combines music, drama, and dance to portray the struggles of migrant workers and rural communities."
+  },
+  {
+    "name": "Dhokra Metal Casting",
+    "image": "/images/arts/dhokra.jpg",
+    "description": "An ancient metal casting technique using the lost-wax method.",
+    "origin": "Tribal regions of Bihar",
+    "details": "Dhokra art is practiced for over 4,000 years. Artisans use wax molds to create unique brass figurines with a rustic finish."
+  }
+]

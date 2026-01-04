@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Tussar Silk Sarees",
+    "image": "/images/clothes/tussar-silk.jpg",
+    "description": "Renowned for their rich texture and natural golden hue, symbolizing Bihar’s textile heritage.",
+    "materials": "Tussar silk, zari thread",
+    "details": "Produced mainly in Bhagalpur, these sarees are lightweight, breathable, and often feature motifs inspired by nature and traditional art."
+  },
+  {
+    "name": "Dhoti-Kurta",
+    "image": "/images/clothes/dhoti-kurta.jpg",
+    "description": "Traditional attire for men, representing simplicity and cultural identity.",
+    "materials": "Cotton, silk",
+    "details": "The dhoti is wrapped around the waist while the kurta is a loose tunic, commonly worn during festivals, rituals, and ceremonies."
+  },
+  {
+    "name": "Bhagalpuri Silk",
+    "image": "/images/clothes/bhagalpuri-silk.jpg",
+    "description": "Known as the ‘Queen of Fabrics’ for its durability and elegant texture.",
+    "materials": "Tussar silk cocoon threads",
+    "details": "Used to create sarees, suits, and dupattas, Bhagalpuri silk is prized for its breathability and graceful drape."
+  },
+  {
+    "name": "Madhubani Print Attire",
+    "image": "/images/clothes/madhubani-print.jpg",
+    "description": "Modern garments featuring the iconic Madhubani art form.",
+    "materials": "Cotton, silk, natural dyes",
+    "details": "Traditional Madhubani motifs are hand-painted or printed on kurtas, sarees, and dupattas, blending folk art with contemporary fashion."
+  },
+  {
+    "name": "Sujini Embroidered Textiles",
+    "image": "/images/clothes/sujini-textiles.jpg",
+    "description": "Narrative embroidery textiles depicting social stories and folklore.",
+    "materials": "Cotton, silk, colored threads",
+    "details": "Sujini embroidery uses running stitches on layered fabric, transforming garments into storytelling canvases."
+  },
+  {
+    "name": "Khatwa Appliqué Work",
+    "image": "/images/clothes/khatwa-work.jpg",
+    "description": "Colorful appliqué designs used on garments and furnishings.",
+    "materials": "Cotton fabric, thread",
+    "details": "Fabric patches are cut into shapes and stitched onto base cloth to create vibrant decorative patterns."
+  },
+  {
+    "name": "Traditional Cotton Weaves",
+    "image": "/images/clothes/cotton-weaves.jpg",
+    "description": "Comfortable and durable cotton textiles for everyday wear.",
+    "materials": "Cotton",
+    "details": "Handloom cotton weaving is practiced across Bihar, producing breathable fabrics suitable for daily use."
+  },
+  {
+    "name": "Mithila Paag",
+    "image": "/images/clothes/mithila-paag.jpg",
+    "description": "Traditional headgear symbolizing honor and cultural pride.",
+    "materials": "Cotton",
+    "details": "Worn during ceremonies and special occasions, the Paag reflects the wearer’s status and regional identity."
+  }
+]

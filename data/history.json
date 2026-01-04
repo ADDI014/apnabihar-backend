@@ -1,0 +1,58 @@
+[
+  {
+    "name": "The Mauryan Empire",
+    "image": "/images/history/mauryan-empire.jpg",
+    "description": "Explore the legacy of one of India's greatest empires, with its capital in Pataliputra.",
+    "time_period": "c. 322–184 BCE",
+    "detailed_account": "Founded by Chandragupta Maurya, the Mauryan Empire became one of the largest empires in ancient India. Under Emperor Ashoka, it reached its zenith, establishing a unified administration and spreading the principles of Dhamma across the subcontinent."
+  },
+  {
+    "name": "Rise of Buddhism & Jainism",
+    "image": "/images/history/buddhism-jainism.jpg",
+    "description": "Bihar as the cradle of two major world religions.",
+    "time_period": "6th–5th Century BCE",
+    "detailed_account": "Magadha emerged as the spiritual epicenter of ancient India. Siddhartha Gautama attained enlightenment at Bodh Gaya, while Vardhamana Mahavira propagated Jainism, shaping global spiritual thought."
+  },
+  {
+    "name": "Gupta Dynasty Golden Age",
+    "image": "/images/history/gupta-dynasty.jpg",
+    "description": "An era of scientific, cultural, and academic excellence.",
+    "time_period": "c. 320–550 CE",
+    "detailed_account": "Often called the Golden Age of India, the Gupta period witnessed major advancements in mathematics, astronomy, philosophy, and art. Institutions like Nalanda flourished under royal patronage."
+  },
+  {
+    "name": "Nalanda University",
+    "image": "/images/history/nalanda-hub.jpg",
+    "description": "The world's first residential university.",
+    "time_period": "5th–12th Century CE",
+    "detailed_account": "Nalanda attracted scholars from China, Tibet, Korea, and Central Asia. Its massive libraries and structured education system made it the greatest academic institution of the ancient world."
+  },
+  {
+    "name": "Ancient Vaishali Republic",
+    "image": "/images/history/vaishali.jpg",
+    "description": "One of the earliest republics in world history.",
+    "time_period": "6th Century BCE",
+    "detailed_account": "The Licchavi republic practiced a form of democratic governance with elected assemblies. Vaishali was also significant for hosting the Second Buddhist Council."
+  },
+  {
+    "name": "The Pala Empire",
+    "image": "/images/history/pala-empire.jpg",
+    "description": "A dynasty that strengthened Buddhist learning.",
+    "time_period": "8th–12th Century CE",
+    "detailed_account": "The Palas ruled eastern India and patronized Mahayana Buddhism, founding major institutions like Vikramshila University and fostering intellectual exchange with Southeast Asia."
+  },
+  {
+    "name": "Sher Shah Suri’s Administration",
+    "image": "/images/history/sher-shah.jpg",
+    "description": "Administrative reforms that shaped modern governance.",
+    "time_period": "1540–1545 CE",
+    "detailed_account": "Sher Shah Suri introduced standardized currency, efficient revenue systems, and the Grand Trunk Road, laying foundations later adopted by the Mughals."
+  },
+  {
+    "name": "Champaran Satyagraha",
+    "image": "/images/history/champaran.jpg",
+    "description": "Gandhi’s first major movement in India.",
+    "time_period": "1917 CE",
+    "detailed_account": "This non-violent protest against British indigo exploitation marked the beginning of mass civil resistance in India’s freedom struggle."
+  }
+]
