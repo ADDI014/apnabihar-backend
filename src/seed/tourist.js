@@ -15,7 +15,10 @@ module.exports = async function seedTouristSpots() {
         const exists = await TouristSpot.findOne({name : spot.name});
 
         if(!exists) {
-            await TouristSpot.create(spot);
+            await TouristSpot.create({
+                ...spot,
+                slug : slugify(`${spot.name} ${spot.location}`)
+            });
         }
     }
 

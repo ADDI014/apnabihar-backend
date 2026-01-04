@@ -26,6 +26,22 @@ const fetchTouristSpotById = asyncHandler(async (req,res) => {
     );
 });
 
+const TouristSpot = require("./tourist.model");
+
+exports.getTouristSpotBySlug = async (req, res) => {
+  try {
+    const spot = await TouristSpot.findOne({ slug: req.params.slug });
+
+    if (!spot) {
+      return res.status(404).json({ message: "Tourist spot not found" });
+    }
+
+    res.json(spot);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
 module.exports = {
     fetchTouristSpots,
     fetchTouristSpotById

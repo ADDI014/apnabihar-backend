@@ -10,6 +10,12 @@ const touristSpotSchema = new mongoose.Schema(
             trim : true,
             index : true,
         },
+        slug: {
+         type: String,
+         required: true,
+         unique: true,
+         index: true
+        },
         location : {
             type : String ,
             required : true,
