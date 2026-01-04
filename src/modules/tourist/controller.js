@@ -3,8 +3,9 @@ const asyncHandler = require("../../middlewares/asyncHandler");
 const ApiResponse = require("../../utils/ApiResponse");
 
 const {getAllTouristSpots, getTouristSpotById} = require("./service");
+const TouristSpot = require("./model");
 
-const fetchTouristSpots = asyncHandler(async (req,res) => {
+const fetchAllTouristSpots = asyncHandler(async (req,res) => {
     const result = await getAllTouristSpots(req.query);
 
     res.json(
@@ -17,7 +18,7 @@ const fetchTouristSpots = asyncHandler(async (req,res) => {
 
 
 const fetchTouristSpotById = asyncHandler(async (req,res) => {
-    const spot = await getAllTouristSpots(req.params.id);
+    const spot = await getTouristSpotById(req.params.id);
 
     res.json(
         new ApiResponse({
@@ -43,7 +44,7 @@ exports.getTouristSpotBySlug = async (req, res) => {
 };
 
 module.exports = {
-    fetchTouristSpots,
+    fetchAllTouristSpots,
     fetchTouristSpotById
 }
 

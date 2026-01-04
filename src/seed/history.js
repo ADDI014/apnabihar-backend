@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const History = require("../modules/history/model");
+const slugify = require("../utils/slugify");
 
 async function seedHistory() {
   console.log("Seeding history");
@@ -12,7 +13,10 @@ async function seedHistory() {
     const exists = await History.findOne({ name: item.name });
 
     if (!exists) {
-      await History.create(item);
+      await History.create({
+        ...item,
+        slug : slugify(item.name)
+      });
     }
   }
 

@@ -16,7 +16,10 @@ module.exports = async function seedCuisines() {
         const exists = await Cuisine.findOne({name : cuisine.name});
 
         if(!exists) {
-            await Cuisine.create(cuisine);
+            await Cuisine.create({
+                ...cuisine,
+                slug : slugify(cuisine.name)
+            });
         }
     }
 

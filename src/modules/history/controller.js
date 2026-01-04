@@ -2,6 +2,7 @@
 const asyncHandler = require("../../middlewares/asyncHandler");
 
 const ApiResponse = require("../../utils/ApiResponse");
+const History = require("./model");
 
 const {getAllHistory, getHistoryById} = require("./service");
 
@@ -25,6 +26,20 @@ const fetchHistoryById = asyncHandler(async (req,res) => {
         })
     );
 });
+
+exports.getHistoryBySlug = async (req, res) => {
+  try {
+    const history = await History.findOne({ slug: req.params.slug });
+
+    if (!history) {
+      return res.status(404).json({ message: "Festival not found" });
+    }
+
+    res.json(history);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
 
 module.exports = {
   fetchHistory,

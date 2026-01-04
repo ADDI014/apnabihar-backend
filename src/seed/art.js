@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const Art = require("../modules/art/model");
+const slugify = require("../utils/slugify");
 
 module.exports = async function seedArts() {
     console.log("Seeding arts.....");
@@ -13,7 +14,10 @@ module.exports = async function seedArts() {
         const exists = await Art.findOne({name : art.name});
 
         if(!exists){
-            await Art.create(art);
+            await Art.create({
+                ...art,
+                slug : slugify(art.name)
+            });
         }
     }
 

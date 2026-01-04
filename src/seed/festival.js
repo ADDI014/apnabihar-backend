@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const Festival = require("../modules/festival/model");
+const slugify = require("../utils/slugify");
 
 module.exports = async function seedFestivals() {
     console.log("Seeding festivals......");
@@ -16,7 +17,10 @@ module.exports = async function seedFestivals() {
         const exists = await Festival.findOne({name : festival.name});
 
         if(!exists){
-            await Festival.create(festival);
+            await Festival.create({
+                ...festival,
+                slug : slugify(festival.name)
+            });
         }
     }
 

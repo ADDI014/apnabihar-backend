@@ -9,6 +9,12 @@ const clothesSchema = new mongoose.Schema(
             trim : true,
             index : true,
         },
+        slug: {
+        type: String,
+        required: true,
+        unique: true,
+        index: true
+        },
         image : {
             type : String,
             required : true,

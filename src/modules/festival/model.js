@@ -9,6 +9,12 @@ const festiveSchema = new mongoose.Schema(
             trim : true,
             index : true,
         },
+         name: {
+           type: String,
+           required: true,
+           trim: true
+        },
+
         image : {
             type : String,
             required : true,
