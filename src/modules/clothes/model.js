@@ -36,6 +36,12 @@ const clothesSchema = new mongoose.Schema(
     {timestamps : true}
 );
 
-clothesSchema.index({name : 1, materials : 1});
+clothesSchema.index({
+  name: "text",
+  description: "text",
+  materials: "text",
+  details: "text",
+});
+
 
 module.exports = mongoose.model("Clothes", clothesSchema);

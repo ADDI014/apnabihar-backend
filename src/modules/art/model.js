@@ -38,4 +38,12 @@ const artSchema = new mongoose.Schema(
     }
 )
 
+artSchema.index({
+  name: "text",
+  description: "text",
+  origin: "text",
+  details: "text",
+});
+
+
 module.exports = mongoose.model("Art", artSchema);

@@ -15,7 +15,7 @@ module.exports = async function seedTemples() {
     if (!exists) {
       await Temple.create({
         ...temple,
-        slug : slugify(temple.name)
+        slug : slugify(`${temple.name} bihar temple`),
       });
     }
   }

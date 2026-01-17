@@ -33,6 +33,14 @@ const cuisineSchema = new mongoose.Schema({
  {timestamps : true}
 )
 
+cuisineSchema.index({
+  name: "text",
+  description: "text",
+  longDescription: "text",
+  ingredients: "text",
+});
+
+
 
 module.exports = mongoose.model("Cuisine", cuisineSchema);
 

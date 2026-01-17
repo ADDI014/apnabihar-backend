@@ -37,7 +37,13 @@ const festiveSchema = new mongoose.Schema(
 )
 
 
-festiveSchema.index({name : 2, timeOfYear : 1});
+festiveSchema.index({
+  name: "text",
+  description: "text",
+  significance: "text",
+  timeOfYear: "text",
+});
+
 
 module.exports = mongoose.model("Festival", festiveSchema);
 

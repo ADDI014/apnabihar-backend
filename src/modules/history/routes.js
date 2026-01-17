@@ -2,7 +2,7 @@ const express = require("express");
 const {
   fetchHistory,
   fetchHistoryById,
-  getHistoryBySlug
+  getHistoryBySlug,
 } = require("./controller");
 
 const router = express.Router();

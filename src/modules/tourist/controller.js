@@ -1,51 +1,50 @@
-
 const asyncHandler = require("../../middlewares/asyncHandler");
 const ApiResponse = require("../../utils/ApiResponse");
 
-const {getAllTouristSpots, getTouristSpotById} = require("./service");
-const TouristSpot = require("./model");
+const {
+  getAllTouristSpots,
+  getTouristSpotById,
+  getTouristBySlug,
+} = require("./service");
 
-const fetchAllTouristSpots = asyncHandler(async (req,res) => {
-    const result = await getAllTouristSpots(req.query);
+const fetchAllTouristSpots = asyncHandler(async (req, res) => {
+  const result = await getAllTouristSpots(req.query);
 
-    res.json(
-        new ApiResponse({
-            data : result.items,
-            meta : result.meta,
-        })
-    )
-})
-
-
-const fetchTouristSpotById = asyncHandler(async (req,res) => {
-    const spot = await getTouristSpotById(req.params.id);
-
-    res.json(
-        new ApiResponse({
-            data : spot,
-        })
-    );
+  res.json(
+    new ApiResponse({
+      data: result.items,
+      meta: result.meta,
+    })
+  );
 });
 
-const TouristSpot = require("./tourist.model");
+const fetchTouristSpotById = asyncHandler(async (req, res) => {
+  const spot = await getTouristSpotById(req.params.id);
 
-exports.getTouristSpotBySlug = async (req, res) => {
-  try {
-    const spot = await TouristSpot.findOne({ slug: req.params.slug });
+  res.json(
+    new ApiResponse({
+      data: spot,
+    })
+  );
+});
 
-    if (!spot) {
-      return res.status(404).json({ message: "Tourist spot not found" });
-    }
+const fetchTouristSpotBySlug = asyncHandler(async (req, res) => {
+  const spot = await getTouristBySlug(req.params.slug);
 
-    res.json(spot);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
+  if (!spot) {
+    res.status(404);
+    throw new Error("Tourist spot not found");
   }
-};
+
+  res.json(
+    new ApiResponse({
+      data: spot,
+    })
+  );
+});
 
 module.exports = {
-    fetchAllTouristSpots,
-    fetchTouristSpotById
-}
-
-
+  fetchAllTouristSpots,
+  fetchTouristSpotById,
+  fetchTouristSpotBySlug,
+};

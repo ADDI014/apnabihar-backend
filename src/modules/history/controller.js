@@ -1,47 +1,47 @@
-
 const asyncHandler = require("../../middlewares/asyncHandler");
-
 const ApiResponse = require("../../utils/ApiResponse");
 const History = require("./model");
 
-const {getAllHistory, getHistoryById} = require("./service");
+const { getAllHistory, getHistoryById } = require("./service");
 
-const fetchHistory = asyncHandler(async (req,res) => {
-    const result = await getAllHistory(req.query);
+const fetchHistory = asyncHandler(async (req, res) => {
+  const result = await getAllHistory(req.query);
 
-    res.json(
-        new ApiResponse({
-            data : result.items,
-            meta : result.meta,
-        })
-    );
+  res.json(
+    new ApiResponse({
+      data: result.items,
+      meta: result.meta,
+    })
+  );
 });
 
-const fetchHistoryById = asyncHandler(async (req,res) => {
-    const history = await getHistoryById(req.params.id);
+const fetchHistoryById = asyncHandler(async (req, res) => {
+  const history = await getHistoryById(req.params.id);
 
-    res.json(
-        new ApiResponse({
-            data : history,
-        })
-    );
+  res.json(
+    new ApiResponse({
+      data: history,
+    })
+  );
 });
 
-exports.getHistoryBySlug = async (req, res) => {
-  try {
-    const history = await History.findOne({ slug: req.params.slug });
+const getHistoryBySlug = asyncHandler(async (req, res) => {
+  const history = await History.findOne({ slug: req.params.slug });
 
-    if (!history) {
-      return res.status(404).json({ message: "Festival not found" });
-    }
-
-    res.json(history);
-  } catch (error) {
-    res.status(500).json({ message: error.message });
+  if (!history) {
+    res.status(404);
+    throw new Error("History not found");
   }
-};
+
+  res.json(
+    new ApiResponse({
+      data: history,
+    })
+  );
+});
 
 module.exports = {
   fetchHistory,
   fetchHistoryById,
+  getHistoryBySlug,
 };

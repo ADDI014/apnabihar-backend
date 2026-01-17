@@ -1,10 +1,8 @@
-
-
 const express = require("express");
 const {
   fetchCuisines,
   fetchCuisineById,
-  getCuisineBySlug
+  getCuisineBySlug,
 } = require("./controller");
 
 const router = express.Router();

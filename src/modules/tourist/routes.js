@@ -1,14 +1,14 @@
-
-
 const express = require("express");
-
-const {fetchTouristSpots, fetchTouristSpotById, getTouristSpotBySlug} = require("./controller");
+const {
+  fetchAllTouristSpots,
+  fetchTouristSpotById,
+  fetchTouristSpotBySlug,
+} = require("./controller");
 
 const router = express.Router();
 
-router.get("/", fetchTouristSpots);
-router.get("/slug/:slug", getTouristSpotBySlug);
+router.get("/", fetchAllTouristSpots);
+router.get("/slug/:slug", fetchTouristSpotBySlug);
 router.get("/:id", fetchTouristSpotById);
 
 module.exports = router;
-

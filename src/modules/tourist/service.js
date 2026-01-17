@@ -12,11 +12,11 @@ const getAllTouristSpots = async ({
     const query = {};
 
     if(search) {
-        query.name = {$regex : search, $options : "i"};
+        query.$text = {$regex : search};
     }
 
     if(location) {
-        query.location = {$regex : location, $options : "i"};
+        query.location = new RegExp(location, "i");
     }
 
     const skip = (page - 1) * limit;
@@ -29,8 +29,8 @@ const getAllTouristSpots = async ({
     return {
         items,
         meta : {
-            page : Number(page),
-            limit : Number(limit),
+            page : +page,
+            limit : +limit,
             total,
         },
     };
@@ -44,9 +44,16 @@ const getTouristSpotById = async (id) => {
     return spot;
 }
 
+const getTouristBySlug = async (slug) => {
+    const item = await TouristSpot.findOne({slug});
+    if(!item) throw new ApiError(404, "Tourist spot not found");
+    return item;
+}
+
 
 module.exports = {
     getAllTouristSpots,
     getTouristSpotById,
+    getTouristBySlug,
 };
 

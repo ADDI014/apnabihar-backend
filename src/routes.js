@@ -8,8 +8,11 @@ const festivalRoutes = require("./modules/festival/routes");
 const historyRoutes = require("./modules/history/routes");
 const templeRoutes = require("./modules/temple/routes");
 const clothesRoutes = require("./modules/clothes/routes");
+const searchRoutes = require("./modules/search/routes");
 
 const router = express.Router();
+
+router.use("/search", searchRoutes);
 
 router.use("/arts", artRoutes);
 router.use("/cuisines", cuisineRoutes);

@@ -35,6 +35,11 @@ const templeSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-templeSchema.index({ name: 1, deity: 1 });
+templeSchema.index({
+  name : "text",
+  description : "text",
+  deity : "text",
+  significance : "text",
+});
 
 module.exports = mongoose.model("Temple", templeSchema);

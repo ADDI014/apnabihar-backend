@@ -3,9 +3,10 @@ const Art = require("./model");
 const ApiError = require("../../utils/ApiError");
 
 const getAllArts = async ({page = 1 , limit = 10, search = ""}) => {
-    const query = search ? {
-        name : { $regex : search, $option : "i"} }
-        : {};
+    const query = search
+    ? { name: { $regex: search, $options: "i" } }
+    : {};
+
 
     const skip = (page - 1) * limit;
     
@@ -22,6 +23,7 @@ const getAllArts = async ({page = 1 , limit = 10, search = ""}) => {
         },
     }
 }
+
 
 
 const getArtById = async (id) => {

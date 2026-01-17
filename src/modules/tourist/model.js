@@ -60,6 +60,11 @@ const touristSpotSchema = new mongoose.Schema(
     {timestamps : true}
 )
 
-touristSpotSchema.index({name : 1, location : 1});
+touristSpotSchema.index({
+  name: "text",
+  description: "text",
+  longDescription: "text",
+  location: "text",
+});
 
 module.exports = mongoose.model("TouristSpot", touristSpotSchema);

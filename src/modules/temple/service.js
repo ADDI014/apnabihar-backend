@@ -40,7 +40,15 @@ const getTempleById = async (id) => {
   return temple;
 };
 
+const getTempleBySlug = async (slug) => {
+  const temple = await Temple.findOne({slug });
+  if(!temple) throw new ApiError(404, "Temple not found");
+  return temple;
+}
+
 module.exports = {
   getAllTemples,
   getTempleById,
+  getTempleBySlug
 };
+

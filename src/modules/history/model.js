@@ -35,7 +35,13 @@ const historySchema = new mongoose.Schema(
     {timestamps : true}
 );
 
-historySchema.index({name : 1, timePeriod : 1});
+historySchema.index({
+  name: "text",
+  description: "text",
+  time_period: "text",
+  detailed_account: "text",
+});
+
 
 module.exports = mongoose.model("History", historySchema);
 
